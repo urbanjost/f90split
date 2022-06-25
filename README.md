@@ -1,3 +1,11 @@
+### fpm-tools : f90split
+
+Build Michel Olagnon's version of f90split(1) using fpm(1):
+```bash
+git clone https://github.com/urbanjost/f90split
+fpm install
+f90split --help
+```
 NAME
 ====
 
