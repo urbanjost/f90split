@@ -1,4 +1,4 @@
-### fpm-tools : [f90split](https://urbanjost.github.io/f90split/)
+### [fpm-tools](https://github.com/search?q=user%3Aurbanjost%20in:topic%20fpm-tools) : [f90split](https://urbanjost.github.io/f90split/)
 
 Build Michel Olagnon's version of f90split(1) using fpm(1):
 ```bash
