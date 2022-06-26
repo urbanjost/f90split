@@ -1462,6 +1462,10 @@ character (len=lsttm) :: zsttw
 !
       call rmvlbl (zsttw)
       zsttw=upper_quoted(zsttw)
+!  Remove ABSTRACT prefix
+      if (zsttw (1:9) == 'ABSTRACT ') then
+         zsttw=adjustl(zsttw(10:))
+      endif
 !
 !  Look for first token, to be INTERFACE
 !
